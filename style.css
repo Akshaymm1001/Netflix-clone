@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+padding: 0;
+}
+.navBar{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+}
+.navLogo{
+    height: 100%;
+    width: 40%;
+    margin-left: 4%;
+    align-items: center;
+    display: flex;
+   
+}
+.navOptions{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.navOptions p{
+color: azure;
+font-size: small;
+
+
+}
+.navLogo img{
+    width: 20%;
+    height: 25%;
+    
+}
+.photoBox{
+    height: 500px;
+    width: 100%;
+}

@@ -37,7 +37,7 @@ font-size: small;
     
 }
 .photoBox{
-    height: 500px;
+    height: 450px;
     width: 100%;
     background-color: black;
     position: relative;
@@ -86,4 +86,45 @@ box-shadow: rgb(255, 10, 10) 0px 5px 15px;
 }
 h2{
     font-size:50px;
+}
+.thirdBox{
+    height: 120px;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(26, 25, 25);
+    
+}
+.trends{
+    height: 60px;
+    width: 100%;
+    border-bottom:0.3px solid gray;
+    border-bottom: lpx;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.categories{
+    height: 60px;
+    width: 90%;
+ gap: 4%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.watch1{
+    background-color: rgb(255, 10, 10);
+color: white;
+border: none;
+height:30px;
+width: 90px;
+border-radius: 45px;
+}
+
+.trends span{
+  color: white;
+ font-size: 20px;
+}
+.trends p{
+    color: gray;
 }

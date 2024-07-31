@@ -108,10 +108,15 @@ h2{
 .categories{
     height: 60px;
     width: 90%;
- gap: 4%;
+ gap: 40%;
     display: flex;
     align-items: center;
    justify-content: space-around;
+   overflow-x: auto;
+   overflow-y: hidden;
+}
+.categories::-webkit-scrollbar{
+    display: none;
 }
 .watch1{
     background-color: rgb(255, 10, 10);
